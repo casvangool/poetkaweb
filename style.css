@@ -244,7 +244,20 @@ footer{
   color: #FF4500;
 }
 
+#chevrondown{
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+  color:white;
+  animation: chevronupdown 1s infinite alternate ;
+}
 
+@keyframes chevronupdown{
+  from{transform: translateY(0);}
+  to{transform: translateY(-20px)}
+}
+ 
 @font-face{
   src: url(JamesStroker-jEZMO.ttf);
   font-family: jamesstroker;
